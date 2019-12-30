@@ -1,0 +1,156 @@
+html{
+    scroll-padding-top: 64px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.divideWrap{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;;
+    padding: 50px 0;
+}
+
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+p{
+    line-height: 30px;
+}
+
+
+/* --------------------- HEADER --------------------------- */
+
+nav {
+    height: 64px;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 5px 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    background-color: #384056;
+}
+
+nav li a{
+    color: white;
+    text-decoration:none;
+}
+
+
+/* --------------------- ABOUT ME --------------------------- */
+#AboutMe{
+    background-color: #384056;
+    color: white;
+    text-align: center;
+}
+
+#AboutMe h1{
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 5em;
+}
+
+#AboutMe p{
+    line-height: 30px;
+}
+
+
+/* --------------------- EDUCATION --------------------------- */
+#Education{
+    background-image: url("kimberly-farmer-lUaaKCUANVI-unsplash.jpg");
+    background-size: cover;
+    background-color:#a7aab3;
+    padding: 10px 0;
+}
+
+#Education h3 + p{
+    line-height: 15px;
+}
+
+
+/* --------------------- WORK EXPERIENCE --------------------------- */
+#WorkExperience{
+    /*background-color: #e3e7e8;*/
+    background-color: #856a4e;
+}
+
+.Work{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Work h3 ~ p{
+    line-height: 15px;
+}
+
+
+/* --------------------- Activites -------------------------- */
+#Activities{
+    background-color:#AF9890;
+}
+
+
+/* --------------------- SKILLS/INTERESTS -------------------------- */
+#Skills{
+    background-color:#e3e7e8;
+    background-image: url("carolina-garcia-tavizon-2lRdRHh8wNc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#Skills a{
+    color: black;
+}
+
+.Interests ~ p{
+    line-height: 10px;
+}
+
+
+/* --------------------- CONTACT ME --------------------------- */
+footer h2{
+    font-size: 2em;
+    padding:0;
+    margin: 0;
+}
+
+footer ul{
+    margin: 0;
+    padding: 10px 0;
+    background-color: #2e2734;
+    color: white;
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li{
+    padding: 0 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
